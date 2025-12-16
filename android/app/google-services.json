@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "644879530474",
+    "project_id": "sehha-app-84ede",
+    "storage_bucket": "sehha-app-84ede.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644879530474:android:e59b85daca176b4c869a93",
+        "android_client_info": {
+          "package_name": "com.example.sehha_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBC2udHRxOCGZznn_IhghEWeAFxMpVXoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

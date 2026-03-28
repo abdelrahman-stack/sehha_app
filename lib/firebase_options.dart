@@ -40,15 +40,17 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAIyMNBQvCnkEGHu6q4GyFeJaw-9vi9xiE',
-    appId: '1:644879530474:web:484ff07e1a51fe99869a93',
-    messagingSenderId: '644879530474',
-    projectId: 'sehha-app-84ede',
-    authDomain: 'sehha-app-84ede.firebaseapp.com',
-    storageBucket: 'sehha-app-84ede.firebasestorage.app',
-    measurementId: 'G-SB6YD7HN5F',
-  );
+static const FirebaseOptions web = FirebaseOptions(
+  apiKey: 'AIzaSyAIyMNBQvCnkEGHu6q4GyFeJaw-9vi9xiE',
+  appId: '1:644879530474:web:484ff07e1a51fe99869a93',
+  messagingSenderId: '644879530474',
+  projectId: 'sehha-app-84ede',
+  authDomain: 'sehha-app-84ede.firebaseapp.com',
+  storageBucket: 'sehha-app-84ede.firebasestorage.app',
+  measurementId: 'G-SB6YD7HN5F',
+  databaseURL: 'https://sehha-app-84ede-default-rtdb.firebaseio.com', 
+);
+
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBBC2udHRxOCGZznn_IhghEWeAFxMpVXoQ',

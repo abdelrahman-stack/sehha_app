@@ -51,12 +51,13 @@
     "patients_chat_list": "Patients Chat List",
   "no_patients_found": "No patients found.",
   "doctor": "Doctor",
-   "doctor_details": "Doctor Details",
+   "barber_details": "Barber Details",
+   "hairdresser_details": "Hairdresser Details",
   "view_location_on_map": "View Location On Map",
   "select_date": "Select Date",
   "select_time": "Select Time",
-  "enter_appointment_details": "Enter your appointment details...",
-  "make_appointment": "Make Appointment",
+  "enter_appointment_details": "Please enter appointment details...",
+  "make_appointment": "Send Request",
   "user": "User",
   "request_sent_successfully": "Request sent successfully!",
   "please_fill_all_fields": "Please fill all the fields",
@@ -123,7 +124,9 @@
   "arabic": "Arabic",
   "'Transforming\nHealthcare'" : "Transforming\nHealthcare",
   "sehha" : "Sehha",
-  "D+" : "D+"
+  "D+" : "D+",
+  "shop_name": "Shop Name",
+  "owner_name": "Owner Name"
   
   
 }

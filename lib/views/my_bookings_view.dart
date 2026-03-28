@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:sehha_app/core/tools/app_localizations%20.dart';
 import 'package:sehha_app/core/utils/app_colors.dart';
-import 'package:sehha_app/models/booking_appointment_model.dart';
+import 'package:sehha_app/core/models/booking_appointment_model.dart';
 import 'package:sehha_app/widgets/lottie_loading_Indicator.dart';
 
 class MyBookingsView extends StatefulWidget {
@@ -66,7 +66,8 @@ class _MyBookingsViewState extends State<MyBookingsView> {
         return Colors.red;
       case 'completed':
         return Colors.blue;
-      case 'pending':
+      case 'انتظار الرد':
+        return Colors.orange;
       default:
         return Colors.orange;
     }
@@ -77,7 +78,7 @@ class _MyBookingsViewState extends State<MyBookingsView> {
     final local = AppLocalizations.of(context);
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppColors.scondaryColor,
+        backgroundColor: AppColors.secondaryColor,
         title: Text(
           local.translate('my_bookings'),
           style: const TextStyle(color: Colors.white),
